@@ -11,7 +11,7 @@ int main () {
 
     cout << "after push back size = " << vec.size() << endl;
 
-    vec.pop_back();
+    vec.pop_back(); //pop back function delet
     
     for (int val : vec) {
         cout << val << endl;
